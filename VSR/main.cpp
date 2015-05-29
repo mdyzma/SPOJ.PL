@@ -46,7 +46,7 @@ Wyjœcie sk³ada siê z t wierszy. W ka¿dym wierszu powinna znaleŸæ siê dok³adnie j
 
 Przyk³ad
 
-Wejœcie:
+Wejscie:
 2
 50 50
 60 40

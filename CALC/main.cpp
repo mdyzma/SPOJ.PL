@@ -29,8 +29,11 @@ int modulo  (int a, int b)
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    char operator;
+    int a=0,b=0;
+
+    cin>>operator>>a>>b;
+
 }
 
 
