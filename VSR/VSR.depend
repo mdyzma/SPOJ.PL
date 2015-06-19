@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1432981878 source:f:\github\spoj.pl\vsr\main.cpp
+	<iostream>
+	<vector>
+
