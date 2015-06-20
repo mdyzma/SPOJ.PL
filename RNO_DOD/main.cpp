@@ -1,25 +1,40 @@
 #include <iostream>
-#include <vector>
-#include <sstream>
+//#include <vector>
+
+
 using namespace std;
 
 
+
 int main(){
-    int t;
+    int t,x,n;
     cin>>t;
 
     for (int i=0;i<t;i++){
-
-        int n;
         cin>>n;
-        int myArray[n];
-        for (int j=0;j<n;j++){
-            cin>>myArray[j];
-        }read
-        for (int k=0;k<sizeof(myArray);k++){
-            cout<<myArray[k]<<endl;
+        int suma = 0;
+        while (n!=0){
+
+            cin>>x;
+            suma+=x;
+            n--;
         }
+        cout<<suma<<endl;
+
+        //wyniki.push_back(suma);
     }
+
+
+    //for (int i = 0; i < wyniki.size(); i++) {
+    //    cout << wyniki[i] << endl;
+    //}
+
+
+
+/*    for (int k=0;k<sizeof(myArray)/sizeof(myArray[1]);k++){
+        cout<<myArray[k]<<endl;
+    }*/
+    return 0;
 }
 
 /*
