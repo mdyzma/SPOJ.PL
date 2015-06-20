@@ -1,40 +1,29 @@
 #include <iostream>
-#include<vector>
-#include<string>
-#include <stdlib.h>
-#include <cstdio>
-
+#include <vector>
+#include <sstream>
 using namespace std;
 
-int main()
-{
-    short t=0;
+
+int main(){
+    int t;
     cin>>t;
 
-    for (int i=0;i<t;i++)
-    {
-        int iloscL;
-        cin>>iloscL;
-        for  (int i=0;i<iloscL;i++)
-        {
-            string input;
+    for (int i=0;i<t;i++){
 
-            while (getline(cin,input,' '))
-            {
-                vector < string > liczby;
-                int num[256];
-                liczby.push_back(input);
-                liczby.pop_back();
-                num = atoi(liczby.c_str());
-            }
+        int n;
+        cin>>n;
+        int myArray[n];
+        for (int j=0;j<n;j++){
+            cin>>myArray[j];
+        }read
+        for (int k=0;k<sizeof(myArray);k++){
+            cout<<myArray[k]<<endl;
         }
     }
-
-    return 0;
 }
 
 /*
-Twoim zadaniem jest dodaæ wszystkie liczby ca³kowite podane na wejœciu.
+Twoim zadaniem jesC:\Program Files\Java\jdk1.8.0_40\bint dodaæ wszystkie liczby ca³kowite podane na wejœciu.
 
 Wejœcie
 
