@@ -1,5 +1,4 @@
 #include <iostream>
-//#include <vector>
 
 
 using namespace std;
@@ -20,10 +19,9 @@ int main(){
             n--;
         }
         cout<<suma<<endl;
-
-        //wyniki.push_back(suma);
     }
-
+    return 0;
+}
 
     //for (int i = 0; i < wyniki.size(); i++) {
     //    cout << wyniki[i] << endl;
@@ -34,8 +32,7 @@ int main(){
 /*    for (int k=0;k<sizeof(myArray)/sizeof(myArray[1]);k++){
         cout<<myArray[k]<<endl;
     }*/
-    return 0;
-}
+
 
 /*
 Twoim zadaniem jesC:\Program Files\Java\jdk1.8.0_40\bint dodaæ wszystkie liczby ca³kowite podane na wejœciu.

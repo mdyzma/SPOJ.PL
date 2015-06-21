@@ -1,10 +1,17 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int t,n;
+    cin >>t;
+    for (int i=0;i<t;i++){
+        cin >>x;
+
+
+    }
     return 0;
 }
 /*
