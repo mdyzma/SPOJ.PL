@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin>>n;
-    for (int i=0;i<n;i++)
-    {
-        cout << "Hello world!" << endl;
+    int t;
+    cin>>t;
+    for (int i=0;i<t;i++){
+        int n;
+        vector <int> liczby;
+
+        tab[]
     }
 
     return 0;

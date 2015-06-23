@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1435095891 source:d:\github\spoj.pl\jrowlin\main.cpp
+	<iostream>
+	<iomanip>
+
