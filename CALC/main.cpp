@@ -4,36 +4,54 @@ using namespace std;
 
 int dodawanie (int a, int b)
 {
-    return a+b
+    return a+b;
 }
 
 int odejmowanie (int a, int b)
 {
-    return a-b
+    return a-b;
 }
 
 int mnozenie (int a, int b)
 {
-    return a*b
+    return a*b;
 }
 
 int dzielenie (int a, int b)
 {
-    return a/b
+    return a/b;
 }
 
 int modulo  (int a, int b)
 {
-    return a%b
+    return a%b;
 }
 
 int main()
 {
-    char operator;
+    char coZrobic;
     int a=0,b=0;
 
-    cin>>operator>>a>>b;
+    while(cin>>coZrobic>>a>>b){
 
+        switch(coZrobic){
+            case '+':
+                cout<<dodawanie(a,b)<<endl;
+                break;
+            case '-':
+                cout<<odejmowanie(a,b)<<endl;
+                break;
+            case '*':
+                cout<<mnozenie(a,b)<<endl;
+                break;
+            case '/':
+                cout<<dzielenie(a,b)<<endl;
+                break;
+            case '%':
+                cout<<modulo(a,b)<<endl;
+                break;
+        }
+    }
 }
 
 
@@ -69,26 +87,3 @@ Wyjœcie:
 1
 */
 
-/*
-
-#include <iostream>
-#include <string>
-using namespace std;
-
-int main()
-{
-        string linia;
-        while(getline(cin, linia)){
-             // sprawdzamy co wczytalismy
-             // np:
-             for(int i=0; i < linia.size(); i++) {
-                         // i robimy z tym cos pozytecznego lub to co musimy
-                         //  np drukujemy:
-                        cout << linia[i];
-                        }
-             cout << endl;
-        }
-       return 0;
-}
-
-*/
