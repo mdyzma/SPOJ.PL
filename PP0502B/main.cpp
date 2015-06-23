@@ -8,8 +8,9 @@ int main()
     cin>>t;
     for (int i=0;i<t;i++){
         int n;
-        vector <int> liczby;
 
+        vector <int> liczby;
+    while(cin>>n)
         tab[]
     }
 
